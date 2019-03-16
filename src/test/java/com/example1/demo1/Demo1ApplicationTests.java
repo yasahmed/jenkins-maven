@@ -1,5 +1,6 @@
 package com.example1.demo1;
 
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -10,7 +11,13 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class Demo1ApplicationTests {
 
     @Test
-    public void contextLoads() {
+    public void test1() {
+        Assert.assertTrue(true);
+    }
+
+    @Test
+    public void test2() {
+        Assert.assertTrue(true);
     }
 
 }
